@@ -28,7 +28,7 @@ int binary_search(int array[], int n, int target) {
         
     }
 
-    // Ther target doesn't exist
+    // The target doesn't exist
     return -1;
 }
 
