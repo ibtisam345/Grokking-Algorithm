@@ -47,6 +47,8 @@ print(colors)  # Output: ['green']
 
 ---
 
+## Here is a visualization of the selection sort algorithm
+To play with the flow, [Click Here](https://pz.run/4puT13RpxYIp4?visualize=true)
 ## Quick Comparison
 
 | Feature | `append(x)` | `pop([i])` |

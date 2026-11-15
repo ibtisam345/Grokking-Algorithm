@@ -18,12 +18,14 @@ def findSmallest(array):
 # Now I can use this function to write selection sort ...
 
 def selectionSort(array):           # Sorts an array
-    newArray = []                   
+    newArray = []                   # An empty list
     copiedArray = list(array)       # Copy array elements before mutating
     for i in range(len(copiedArray)):
 
         # Find the smallest element in the array and adds it to the new array
         smallest = findSmallest(copiedArray)
+
+        # Check NOTES.md for notes
         newArray.append(copiedArray.pop(smallest))
 
     return newArray
