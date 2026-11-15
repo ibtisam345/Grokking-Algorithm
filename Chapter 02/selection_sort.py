@@ -5,15 +5,15 @@ def findSmallest(array):
     # Stores the smallest value
     smallest = array[0]
     # Stores the index of the smallest value
-    smalles_index = 0
+    smallest_index = 0
 
     # We already have the 0-th index, so we now starting from 1-th index
     for i in range(1, len(array)):
         if array[i] < smallest:
             smallest = array[i]
-            smalles_index = i
+            smallest_index = i
 
-    return smalles_index
+    return smallest_index
 
 # Now I can use this function to write selection sort ...
 
