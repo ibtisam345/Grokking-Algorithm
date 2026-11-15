@@ -30,5 +30,9 @@ def selectionSort(array):           # Sorts an array
 
     return newArray
 
-print(selectionSort([5, 3, 6, 2, 10]))
-# prints [2, 3, 5, 6, 10]
+def main():
+    print(selectionSort([5, 3, 6, 2, 10]))
+    # prints [2, 3, 5, 6, 10]
+
+if __name__ == "__main__":
+    main()
