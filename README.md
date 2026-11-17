@@ -6,7 +6,7 @@ My implementations and notes while reading *Grokking Algorithms* by Aditya Bharg
 
 - [x] Chapter 1 — Introduction to Algorithms
 - [x] Chapter 2 — Selection Sort
-- [ ] Chapter 3 — Recursion
+- [x] Chapter 3 — Recursion
 - [ ] Chapter 4 — Quicksort
 - [ ] Chapter 5 — Hash Tables
 - [ ] Chapter 6 — Breadth-First Search
