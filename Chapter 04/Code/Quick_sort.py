@@ -1,7 +1,8 @@
 def quickSort(array):
 
     # Let's define the base case
-    # for an array having 0 or 1 i
+    # for an array having 0 or 1 element
+    # Because, an array with 0 or 1 elements is already sorted.
     if len(array) < 2:
         return array
     else:
