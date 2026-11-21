@@ -208,3 +208,6 @@ Let `V` be the number of vertices and `E` the number of edges.
 - Space complexity: $O(V)$, excluding the graph itself.
 
 BFS is useful for finding shortest paths in unweighted graphs, exploring social networks, solving mazes, and finding connections between nodes.
+
+### Visualization Flow-chart
+Here is a flow of code. [Click](https://pz.run/3WaA8z27Y3cuZ?visualize=true) to see.
