@@ -55,6 +55,7 @@ flowchart TD
     A --> D["Claire<br/>Level 1"]
 
     B --> E["Anuj<br/>Level 2"]
+    B --> E["Peggy<br/>Level 2"]
     C --> F["Peggy<br/>Level 2"]
     D --> G["Thom 🍋<br/>Level 2"]
     D --> H["Jonny<br/>Level 2"]
