@@ -3,8 +3,8 @@ from collections import deque
 def person_is_seller(name):
     return name[-1] == 'm'  # his name ends with the letter "m"
 
-graph = {}
-graph["you"] = ["Alice", "Bob", "Claire"]
+graph = {}    # <---- This is an empty dictionary
+graph["you"] = ["Alice", "Bob", "Claire"]   # <--- Every vertices is connected by its neighbours
 graph["Bob"] = ["Anuj", "Peggy"]
 graph["Alice"] = ["Peggy"]
 graph["Claire"] = ["Thom", "Jonny"]
@@ -13,7 +13,7 @@ graph["Peggy"] = []
 graph["Thom"] = []
 graph["Jonny"] = []
 
-def search(name):
+def breadth_first_search(name):
     search_queue = deque()
     search_queue += [name]
 
@@ -33,4 +33,4 @@ def search(name):
         searched.add(person)
     return False
 
-search("you")
+breadth_first_search("you")
