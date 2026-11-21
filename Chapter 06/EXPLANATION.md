@@ -22,7 +22,7 @@ def person_is_seller(name):
 ```
 This function checks whether the last character of a person's name is `m`.  
 * `name[-1]` accesses the last character of the string.  
-* `== 'm'` compares that character with `m`.  
+* `== 'm'` compares that character with the string `'m'`.  
 * The expression returns either `True` or `False`.   
 
 For example:
@@ -191,7 +191,7 @@ Output:
 Thom is a mango seller!
 ```
 
-Key Concepts
+## Key Concepts
 
 - **Graph**: Represents relationships between nodes.
 - **Adjacency list**: Stores each node's neighbours.
