@@ -7,7 +7,7 @@ def find_smallest(array):
     # Stores the index of the smallest value
     smallest_index = 0
 
-    # We already have the 0-th index, so we now starting from 1-th index
+    # We already have the 0-th index, so we are now starting from 1-th index
     for i in range(1, len(array)):
         if array[i] < smallest:
             smallest = array[i]
