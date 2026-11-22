@@ -1,6 +1,6 @@
 # I'll write a function to find the smallest element in an array
 
-def findSmallest(array):
+def find_smallest(array):
 
     # Stores the smallest value
     smallest = array[0]
@@ -17,13 +17,13 @@ def findSmallest(array):
 
 # Now I can use this function to write selection sort ...
 
-def selectionSort(array):           # Sorts an array
+def selection_sort(array):           # Sorts an array
     newArray = []                   # An empty list
     copiedArray = list(array)       # Copy array elements before mutating
     for i in range(len(copiedArray)):
 
         # Find the smallest element in the array and adds it to the new array
-        smallest = findSmallest(copiedArray)
+        smallest = find_smallest(copiedArray)
 
         # Check NOTES.md for notes
         newArray.append(copiedArray.pop(smallest))
@@ -31,7 +31,7 @@ def selectionSort(array):           # Sorts an array
     return newArray
 
 def main():
-    print(selectionSort([5, 3, 6, 2, 10]))
+    print(selection_sort([5, 3, 6, 2, 10]))
     # prints [2, 3, 5, 6, 10]
 
 if __name__ == "__main__":
